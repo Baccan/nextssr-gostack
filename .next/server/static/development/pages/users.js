@@ -1235,6 +1235,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_5__);
 
 
 var _jsxFileName = "C:\\git-projects\\rocketseat\\Bootcamp\\nextssr-gostack\\pages\\users.js";
@@ -1242,18 +1244,25 @@ var _jsxFileName = "C:\\git-projects\\rocketseat\\Bootcamp\\nextssr-gostack\\pag
 
 
 
+
 var User = function User(_ref) {
   var users = _ref.users;
-  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_2___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_5___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 9
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("ul", {
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("title", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 10
+    },
+    __self: this
+  }, "Usu\xE1rios")), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("ul", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
     },
     __self: this
   }, users.map(function (user) {
@@ -1261,7 +1270,7 @@ var User = function User(_ref) {
       key: user.id,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 10
+        lineNumber: 14
       },
       __self: this
     }, user.login);
@@ -1269,13 +1278,13 @@ var User = function User(_ref) {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 17
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 18
     },
     __self: this
   }, "Voltar")));
@@ -1508,6 +1517,17 @@ module.exports = require("next-server/dist/lib/router/router");
 /***/ (function(module, exports) {
 
 module.exports = require("next-server/dist/lib/utils");
+
+/***/ }),
+
+/***/ "next/head":
+/*!****************************!*\
+  !*** external "next/head" ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next/head");
 
 /***/ }),
 
