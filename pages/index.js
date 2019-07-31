@@ -11,6 +11,7 @@ const Home = () => (
       <title>Home</title>
     </Head>
     <h1>Hello World</h1>
+    <img src="/static/keramon.jpg" alt="Keramon" />
     <Link href="/users">
       <a>Usuários</a>
     </Link>
