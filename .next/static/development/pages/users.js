@@ -13827,7 +13827,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!********************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fusers&absolutePagePath=C%3A%5CUsers%5Cgusta%5CDesktop%5Cgit-projects%5Crocketseat%5Cbootcamp%5Cnextssr-gostack%5Cpages%5Cusers.js ***!
   \********************************************************************************************************************************************************************************/
@@ -13850,5 +13850,5 @@ module.exports = dll_7aff549c98b978433226;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=users.js.map
